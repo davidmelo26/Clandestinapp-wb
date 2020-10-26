@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font:inherit;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 400;
-		color: #919499;
+		color: gray;
 		font-size: 14pt;
 		line-height: 1.75em;
 		letter-spacing: 0.025em;
@@ -112,7 +112,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: black;
 			text-decoration: none;
 		}
 
@@ -1464,7 +1464,7 @@ input, select, textarea {
 		}
 
 		header.style1 p {
-			color: #b1b4b9;
+			color: #e3d43d;;
 			display: block;
 			margin: 1.15em 0 0 0;
 			font-size: 1.3em;
@@ -1672,8 +1672,9 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
-			color: #fff;
+			background: black;
+			color: rgb(227, 212, 61);
+			;
 		}
 
 			input[type="button"].style1:hover,
@@ -1681,7 +1682,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color:black;
 			}
 
 			input[type="button"].style1:active,
@@ -1689,7 +1690,7 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				background-color: #000000;
 			}
 
 		input[type="button"].style2,
@@ -1723,8 +1724,8 @@ input, select, textarea {
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: #2f333b url("images/overlay.png");
-			color: #fff;
+			background: #e3d43d ;
+			color: black;
 		}
 
 			input[type="button"].style3:hover,
@@ -1732,7 +1733,7 @@ input, select, textarea {
 			input[type="reset"].style3:hover,
 			button.style3:hover,
 			.button.style3:hover {
-				background-color: #3f434b;
+				background-color: #e3d43d;
 			}
 
 			input[type="button"].style3:active,
@@ -1858,7 +1859,7 @@ input, select, textarea {
 
 			.feature-list h3:before {
 				display: block;
-				color: ##e3d43d;
+				color: #e3d43d;
 				background: black;
 				border-radius: 2.5em;
 				text-align: center;
@@ -2002,40 +2003,40 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #e3d43d; 
 			color: #eee;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(0, 0, 0, 0.75).75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #e3d43d;
 				color: #fff;
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
-				color: #fff;
+				color: #e3d43d;
 			}
 
 		.wrapper.style2 {
-			background: #fff;
+			background: black	;
 		}
 
 			.wrapper.style2 .title {
-				background: #fff;
-				color: #484d55;
+				background: black;
+				color: #fff;
 			}
 
 		.wrapper.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: #e3d43d ;
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background: #e3d43d;
 				color: #484d55;
 			}
 
 			.wrapper.style3 .image {
-				border: solid 10px #fff;
+				border: solid 10px rgb(0, 0, 0);
 			}
 
 /* Page Wrapper */
@@ -2272,14 +2273,14 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #282b34 url("images/overlay.png");
-		color: #eee;
-		color: rgba(255, 255, 255, 0.5);
+		background: black;
+		color: #e3d43d;
+		color: #e3d53de8;
 		padding-bottom: 6em;
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
-			color: #fff;
+			color: #e3d43d;
 		}
 
 		#footer hr {
@@ -2292,7 +2293,7 @@ input, select, textarea {
 		#footer form input[type="password"],
 		#footer form select,
 		#footer form textarea {
-			background: #ccc;
+			background: white;
 			box-shadow: none;
 		}
 
@@ -2309,7 +2310,7 @@ input, select, textarea {
 		#footer input[type="reset"],
 		#footer button,
 		#footer .button {
-			color: #fff;
+			color: #e3d43d;;
 			box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.5);
 		}
 
@@ -2339,7 +2340,7 @@ input, select, textarea {
 			}
 
 		#footer .title {
-			background: #282b34 url("images/overlay.png");
+			background: black;
 			color: #eee;
 		}
 
@@ -2366,7 +2367,7 @@ input, select, textarea {
 			}
 
 			#footer .feature-list h3:before {
-				background: #3d4249 url("images/overlay.png");
+				background: rgb(20, 20, 20)
 			}
 
 /* Copyright */
