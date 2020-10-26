@@ -1999,13 +1999,13 @@ input, select, textarea {
 				right: -35px;
 				width: 35px;
 				height: 38px;
-				background: url("images/shadow.png")	;
+				background: none	;
 			}
 
 		.wrapper.style1 {
 			background: #e3d43d; 
 			color: #eee;
-			color: rgba(0, 0, 0, 0.75).75);
+			color: rgba(0, 0, 0, 0.75);
 		}
 
 			.wrapper.style1 .title {
